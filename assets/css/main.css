@@ -81,7 +81,7 @@ textarea:focus,
 select:focus,
 button:focus {
     outline: none;
-    border: 1px solid #f98a61;
+    border: 1px solid #ffc829;
 }
 input[type="text"],
 input[type="email"],
@@ -277,7 +277,7 @@ p {
 }
 .section-title h2,
 .section-title-left h2 {
-    color: #f98a61;
+    color: #ffc829;
     display: block;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
@@ -359,11 +359,11 @@ p {
 }
 .btn-one {
     cursor: pointer;
-    background: #f98a61;
-    border: 2px solid #f98a61;
+    background: #ffc829;
+    border: 2px solid #ffc829;
     -webkit-transition: all .4s;
     display: inline-block;
-    color: #fff;
+    color: #000;
     font-family: 'Raleway', sans-serif;
     position: relative;
     z-index: 2;
@@ -381,7 +381,7 @@ p {
 .btn-one:hover{
     background: #444 ;
     border: 2px solid #444 ;
-    color: #f98a61;
+    color: #ffc829;
 }
 
 .btn-two {
@@ -407,7 +407,7 @@ p {
 }
 .btn-two:hover {
     background: #FFF ;
-    color: #f98a61 ;
+    color: #ffc829 ;
     border: 2px solid #FFF ;
 }
 
@@ -536,7 +536,7 @@ body {
     margin-bottom: 60px
 }
 .title-section-demos  h2 {
-    color: #f98a61;
+    color: #ffc829;
     text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
@@ -590,7 +590,7 @@ body {
     letter-spacing: 1px;
 }
 .demos-light .title:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 
 
@@ -630,7 +630,7 @@ body {
     letter-spacing: 1px;
 }
 .demos-dark .title:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 
 
@@ -651,7 +651,7 @@ body {
     padding-top: 20px;
 }
 .footer-area .copyright a {
-    color: #f98a61;
+    color: #ffc829;
 }
 
 /*----------------------------------------------------------------
@@ -676,7 +676,7 @@ body {
 .nav-fixed .navbar-brand { 
     z-index: 999;
     font-size: 30px;
-    color: #f98a61 !important;
+    color: #ffc829 !important;
     text-transform: uppercase;
     font-weight: 600;
     position: relative;
@@ -688,7 +688,7 @@ body {
     bottom: 6px;
     right: -7px;
     float: left;
-    background: #f98a61;
+    background: #ffc829;
 }
 
 
@@ -711,7 +711,7 @@ body {
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f98a61;
+    color: #ffc829;
     background-color: transparent;
 }
 .nav-fixed .navbar-nav .active>.nav-link,
@@ -719,7 +719,7 @@ body {
 .nav-fixed .navbar-nav .nav-link.show,
 .nav-fixed .navbar-nav .show>.nav-link
 {
-    color: #f98a61 !important;
+    color: #ffc829 !important;
     background-color: #f9f9f9;
     border: 1px solid #f1f1f1;
     
@@ -744,7 +744,7 @@ body {
 .fixed-top .navbar-nav .nav-link.show,
 .fixed-top  .navbar-nav .show>.nav-link
 {
-    color: #f98a61 !important;
+    color: #ffc829 !important;
 }
 
 .nav-fixed .navbar-nav .nav-item .nav-link {
@@ -789,7 +789,7 @@ body {
     display: block;
     width: 30px;
     height: 2px;
-    background: #f98a61;
+    background: #ffc829;
     top: 19px;
     right: 35px;
 }
@@ -797,10 +797,10 @@ body {
     border: 2px solid #444;
 }
 .side-menu-btn:hover span {
-    border-color: #f98a61;
+    border-color: #ffc829;
 }
 .nav-fixed .side-menu-btn:hover span {
-    border-color: #f98a61;
+    border-color: #ffc829;
 }
 .line-btn-one {
     margin-bottom: 5px;
@@ -851,7 +851,7 @@ body {
     background: transparent;
 }
 .close-side-menu .line-btn {
-    background: #f98a61;
+    background: #ffc829;
     display: block;
     width: 20px;
     text-align: center;
@@ -860,7 +860,7 @@ body {
     margin-bottom: 3px;
 }
 .close-side-menu:hover .line-btn {
-    background: #f98a61;
+    background: #ffc829;
 }
 .close-side-menu .line-btn:first-child {
     transform: rotate(45deg);
@@ -908,7 +908,7 @@ body {
 .contact-side .single-contact span {
     display: block;
     float: left;
-    color: #f98a61;
+    color: #ffc829;
     font-size: 17px;
     margin-top: 5px;
 }
@@ -962,7 +962,7 @@ body {
 }
 /* 01 Default Home  */
 .home-default {
-    background-image: url(http://placehold.it/1920x1280);
+    background-image: url(/assets/images/home-default.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1150,7 +1150,7 @@ body {
 .info-header h1::before {
     content: " ";
     display: block;
-    background: #f98a61;
+    background: #ffc829;
     width: 5px;
     height: 299px;
     top: -43px;
@@ -1159,7 +1159,7 @@ body {
 }
 
 .info-header h1 span {
-    color: #f98a61;
+    color: #ffc829;
     font-weight: 700;
 }
 .banner {
@@ -1225,7 +1225,7 @@ body {
     transition: all 0.1s;
 }
 .follow-me .social-media-about li a:hover {
-    color: #f98a61 !important;
+    color: #ffc829 !important;
 }
 
 
@@ -1243,7 +1243,7 @@ body {
     font-size: 11px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    background: #f98a61;
+    background: #ffc829;
     overflow: hidden;
     
 }
@@ -1255,7 +1255,7 @@ body {
     background: transparent;
     font-size: 18px;
     line-height: 45px;
-    color: #f98a61;
+    color: #ffc829;
     margin-top: -45px;
 
 
@@ -1302,13 +1302,13 @@ body {
     line-height: 30px;
     display: inline-block;
     text-align: center;
-    background: #f98a61;
+    background: #ffc829;
     color: #ffffff;
     transition: all .1s;
     
 }
 .social-media li a:hover {
-    color: #f98a61;
+    color: #ffc829;
     background: #444;
 }
 
@@ -1334,7 +1334,7 @@ body {
     height: 90%;
     z-index: -1;
     content: '';
-    background: #f98a61;
+    background: #ffc829;
 
 }
 .box-img {
@@ -1483,7 +1483,7 @@ body {
     left: 0;
     height: 100%;
     width: 0;
-    background: #f98a61;
+    background: #ffc829;
 }
 
 .skills .skill-box .progress-line > span > .percent-tooltip {
@@ -1494,7 +1494,7 @@ body {
     right: -15px;
     top: -30px;
     padding: 5px 5px;
-    background: #f98a61;
+    background: #ffc829;
     color: #fff;
     line-height: 12px;
 }
@@ -1502,7 +1502,7 @@ body {
 .skills .skill-box .progress-line > span > .percent-tooltip::after {
     position: absolute;
     content: "";
-    border-color: #f98a61 transparent transparent;
+    border-color: #ffc829 transparent transparent;
     border-style: solid;
     border-width: 7px 5px;
     left: 37%;
@@ -1535,7 +1535,7 @@ body {
     font-weight: 500;
     font-size: 12px;
     color: #fff;
-    background: #f98a61;
+    background: #ffc829;
     border-radius: 0px;
     margin-bottom: 10px;
     position: relative;
@@ -1545,7 +1545,7 @@ body {
     position: absolute;
     width: 2px;
     height: 26px;
-    background: #f98a61;
+    background: #ffc829;
     left: -32px;
     top: -1px;
     display: block;
@@ -1589,7 +1589,7 @@ body {
 }
 
 .resume-head > span {
-    color: #f98a61;
+    color: #ffc829;
     line-height: 35px;
     font-size: 30px;
     text-align: center;
@@ -1609,7 +1609,7 @@ body {
     height: 40px;
     width: 40px;
     background: #fff;
-    color: #f98a61;
+    color: #ffc829;
     line-height: 40px;
     font-size: 20px;
     text-align: center;
@@ -1671,7 +1671,7 @@ body {
     line-height: 12px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #f98a61;
+    color: #ffc829;
     text-transform: uppercase;
     
 }
@@ -1726,7 +1726,7 @@ body {
     width: 1px;
     position: absolute;
     z-index: -2;
-    background: #f98a61;
+    background: #ffc829;
 }
 .services-item:hover .box-overlay {
     width: 100%;
@@ -1758,7 +1758,7 @@ body {
 .icon-services {
 }
 .icon-services span {
-    color: #f98a61;
+    color: #ffc829;
     font-size: 40px;
     display: block;
 }
@@ -1819,7 +1819,7 @@ body {
 }
 
 .list-control li.active {
-    color: #f98a61;
+    color: #ffc829;
     background: #fff;
     border: 1px solid #f1f1f1;
 }
@@ -1928,8 +1928,8 @@ body {
 .testimonials .owl-nav div {
     width: 40px;
     height: 40px;
-    border: 1px solid #f98a61;
-    color: #f98a61;
+    border: 1px solid #ffc829;
+    color: #ffc829;
     text-align: center;
     line-height: 40px;
     font-size: 16px;
@@ -2011,7 +2011,7 @@ body {
 .testimonials .client-img::before {
     content: " ";
     display: block;
-    background: #f98a61;
+    background: #ffc829;
     width: 5px;
     height: 60px;
     top: 0px;
@@ -2036,7 +2036,7 @@ body {
     font-size: 13px;
     font-weight: 600;
     line-height: 20px;
-    color: #f98a61;
+    color: #ffc829;
 }
 /*----------------------------------------------------------------
 					End Section Testimonials 
@@ -2103,10 +2103,10 @@ body {
     padding-right: 15px;
 }
 .date li a {
-    color: #f98a61;
+    color: #ffc829;
 }
 .date li a:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 .date li span {
     padding-right: 5px;
@@ -2123,7 +2123,7 @@ body {
     margin-top: 20px; 
 }
 .blog-item .title-post a h5:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 
 .blog-info .post-text  {
@@ -2153,7 +2153,7 @@ body {
     font-size: 13px;
 }
 .blog-info .link:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 /*----------------------------------------------------------------
                         End Section Blog 
@@ -2190,7 +2190,7 @@ body {
     overflow: hidden;
 }
 .contact-item span {
-    color: #f98a61;
+    color: #ffc829;
     line-height: 40px;
     font-size: 20px;
     text-align: center;
@@ -2292,7 +2292,7 @@ footer .copyright a {
     padding-left: 0;
 }
 .breadcrumb-area .page-list li:first-child a:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 
 .blog-area {
@@ -2321,7 +2321,7 @@ footer .copyright a {
 }
 .pagination li a.page-link.active,
 .pagination li a.page-link:hover {
-    background: #f98a61;
+    background: #ffc829;
     border: 2px solid #f1f1f1;
     color: #FFF;
 }
@@ -2345,7 +2345,7 @@ footer .copyright a {
 .widget-profile span {
     font-weight: 600;
     line-height: 20px;
-    color: #f98a61;
+    color: #ffc829;
     display: block;
     font-size: 14px;
     margin: 12px 0 10px;
@@ -2378,7 +2378,7 @@ footer .copyright a {
     opacity: .8;
 }
 .footer-profile li a:hover {
-    color: #f98a61;
+    color: #ffc829;
     transition: .1s;
     opacity: 1;
 }
@@ -2444,7 +2444,7 @@ footer .copyright a {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
-    background: #f98a61;
+    background: #ffc829;
     border-radius: 0px 5px 5px 0px;
     display: inline-block;
     transition: all 0.3s ease;
@@ -2474,7 +2474,7 @@ footer .copyright a {
     padding-bottom: 0;
 }
 .widget-posts .inner-text h6:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 .categories-list {
     background: #FFF;
@@ -2499,7 +2499,7 @@ footer .copyright a {
     padding-right: 5px;
 }
 .categories-list li a:hover {
-    color: #f98a61;
+    color: #ffc829;
 }
 
 
@@ -2524,7 +2524,7 @@ footer .copyright a {
     text-transform: capitalize;
 }
 .tags-list li a:hover {
-    background: #f98a61;
+    background: #ffc829;
     color: #FFF;
 }
 
@@ -2571,7 +2571,7 @@ footer .copyright a {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 13px;
-    color: #f98a61;
+    color: #ffc829;
     float: left;
     padding-right: 10px;
     margin-top: 0px;
@@ -2595,7 +2595,7 @@ footer .copyright a {
 }
 
 .share-social li a:hover {
-    color: #f98a61;
+    color: #ffc829;
     transition: .1s;
     opacity: 1;
 }
@@ -2671,7 +2671,7 @@ footer .copyright a {
     margin-bottom: 10px;
 }
 .person a {
-    color: #f98a61;
+    color: #ffc829;
     line-height: 20px;
     margin-bottom: 5px;
     font-size: 12px;
@@ -2749,7 +2749,7 @@ footer .copyright a {
     width: 35px;
     margin-right: 15px;
     border-radius: 50%;
-    border: 2px solid #f98a61;
+    border: 2px solid #ffc829;
 }
 .author .inner-author {
     padding-top: 5px;
@@ -2757,14 +2757,14 @@ footer .copyright a {
     overflow: hidden;
 }
 .author .inner-author a {
-    color: #f98a61;
+    color: #ffc829;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: .5px;
 }
 .author .inner-author a:hover {
-    color: #f27a4e;
+    color: #f5b803;
 }
 
 /*----------------------------------------------------------------
@@ -2786,7 +2786,7 @@ footer .copyright a {
     font-size: 11px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    background: #f98a61;
+    background: #ffc829;
     overflow: hidden;
     color: #FFF;
     
@@ -2809,7 +2809,7 @@ footer .copyright a {
     line-height: 45px;
     display: block;
     margin-top: 0px;
-    color: #f98a61;
+    color: #ffc829;
 
 }
 .scroll-up:hover .top-three {
